@@ -6,3 +6,5 @@
 
 ;; default to better frame titles
 (setq-default frame-title-format (concat "%b - emacs@" (system-name)))
+
+(setq make-backup-files nil)
