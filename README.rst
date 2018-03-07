@@ -19,7 +19,7 @@ already be installed.
     vagrant up
 
 
-This will download an Ubuntu  VirtualBox image and create three virtual
+This will download an CentOS VirtualBox image and create three virtual
 machines for you. One will be a Salt Master named `master` and two will be Salt
 Minions named `minion1` and `minion2`.  The Salt Minions will point to the Salt
 Master and the Minion's keys will already be accepted. Because the keys are
