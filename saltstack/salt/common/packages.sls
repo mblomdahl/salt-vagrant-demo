@@ -1,6 +1,13 @@
+---
+
 common_packages:
   pkg.installed:
     - pkgs:
-      - htop
       - strace
-      - vim
+      - vim-enhanced
+      - htop
+
+emacs:
+  pkg.installed: []
+
+...
