@@ -1,7 +1,7 @@
 ---
 
 include:
-  - common.packages
-  - common.sensible_defaults
+  - .sensible_defaults
+  - .packages
 
 ...
