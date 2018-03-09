@@ -1,2 +1,7 @@
+---
+
 include:
-  - common.packages
+  - .sensible_defaults
+  - .packages
+
+...

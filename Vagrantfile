@@ -33,7 +33,6 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
         salt.install_type = "stable"
         salt.install_master = true
-        salt.no_minion = true
         salt.verbose = true
         salt.colorize = true
         salt.bootstrap_options = "-P -c /tmp"
